@@ -24,7 +24,7 @@ brew install git
 このプロジェクトを自分のGithubレポジトリにForkしてください。  
 注意：geeorgey/vue_flask_template のmainブランチから直接デプロイしても動きません。
 
-###　そのままデプロイしても動かない理由
+### そのままデプロイしても動かない理由
 Vue.jsからビルドする事でdistディレクトリが作られるのですが、ビルドの際にVUE_APP_BASE_APIという環境変数が読み込まれています。  
 これをこれから作るHerokuアプリのURLに変えないとうまく動きません。
 
